@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /private/var/folders/94/99wchjqd3cgdgbd6svhtvmwr0000gn/T/dlx-96038/bin/create-astro",
+    "command": "/private/var/folders/94/99wchjqd3cgdgbd6svhtvmwr0000gn/T/dlx-96038/bin/create-astro",
+    "escapedCommand": "\"/private/var/folders/94/99wchjqd3cgdgbd6svhtvmwr0000gn/T/dlx-96038/bin/create-astro\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /private/var/folders/94/99wchjqd3cgdgbd6svhtvmwr0000gn/T/dlx-96038/bin/create-astro",
+      "stack": "pnpm: Command failed with exit code 1: /private/var/folders/94/99wchjqd3cgdgbd6svhtvmwr0000gn/T/dlx-96038/bin/create-astro\n    at makeError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42410:17)\n    at handlePromise (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42981:33)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async Object.handler (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:175703:7)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:180328:21\n    at async run (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:180302:34)\n    at async runPnpm (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:180513:5)\n    at async /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:180505:7"
+    }
+  }
+}
