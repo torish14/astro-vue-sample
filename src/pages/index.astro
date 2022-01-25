@@ -1,12 +1,13 @@
 ---
 // Component imports and setup JavaScript go here!
+import Counter from '../components/Counter.vue'
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>Welcome to Astro</title>
+		<title>Welcome to Astro with Vue</title>
 		<style>
 			/* scoped CSS styles go here: */
 			/* h1 { ... } */
@@ -14,6 +15,8 @@
 	</head>
 
 	<body>
-		<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+		<Counter>
+			<h1>Welcome to Astro with Vue!</h1>
+		</Counter>
 	</body>
 </html>
